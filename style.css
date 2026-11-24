@@ -56,10 +56,11 @@ footer.site a{color:#fff}footer.site h3{color:var(--gold);font-size:14px;letter-
 footer.site .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px}@media(max-width:860px){footer.site .cols{grid-template-columns:1fr}}
 footer.site ul{list-style:none;padding:0;margin:0}footer.site li{margin:6px 0}
 .eu{margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);font-size:13px;color:#C7D3DE}
-.contact-bar{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#fff;box-shadow:0 -6px 20px rgba(7,31,55,.18);display:grid;grid-template-columns:repeat(3,1fr)}
+.contact-bar{position:fixed;left:0;right:0;bottom:0;z-index:50;background:#fff;box-shadow:0 -6px 20px rgba(7,31,55,.18);display:grid;grid-template-columns:repeat(5,1fr)}
 .contact-bar a{display:flex;align-items:center;justify-content:center;gap:10px;min-height:64px;text-decoration:none;font-weight:800;font-size:15px}
 .contact-bar svg{width:22px;height:22px}
-.cb-mail{background:var(--navy);color:#fff}.cb-wa{background:#1FAF5A;color:#fff}.cb-tel{background:var(--gold);color:var(--deep)}
+.cb-mail{background:var(--navy);color:#fff}.cb-fb{background:#1877F2;color:#fff}.cb-ig{background:linear-gradient(45deg,#F58529,#DD2A7B 55%,#8134AF);color:#fff}.cb-wa{background:#1FAF5A;color:#fff}.cb-tel{background:var(--gold);color:var(--deep)}
 .contact-bar a:hover{filter:brightness(1.08);color:inherit}
-.cb-mail:hover,.cb-wa:hover{color:#fff}
-@media(max-width:520px){.contact-bar a span{font-size:13px}}
+.cb-mail:hover,.cb-wa:hover,.cb-fb:hover,.cb-ig:hover{color:#fff}
+@media(max-width:760px){.contact-bar{grid-template-columns:1fr 1fr 1.35fr 56px 56px}.cb-fb span,.cb-ig span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}}
+@media(max-width:520px){.contact-bar{grid-template-columns:1fr 1fr 2.6fr 1fr 1fr}.contact-bar a{gap:8px;white-space:nowrap}.contact-bar a span{font-size:15px}.cb-mail span,.cb-wa span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.contact-bar svg{width:24px;height:24px}}
