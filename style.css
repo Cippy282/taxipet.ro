@@ -124,3 +124,8 @@ section.alt+section.alt{padding-top:0}
 .eu-top-in{justify-content:center;gap:120px}
 @media (max-width:640px){.eu-top-in{gap:72px}}
 @media (max-width:360px){.eu-top-in{gap:58px}}
+/* ecrane mici: sigla Guvernului nu depășește marginea dreaptă a butonului Meniu */
+@media (max-width:640px){.eu-top img{height:42px}.eu-top-in{gap:63px}}
+@media (max-width:360px){.eu-top img{height:38px}.eu-top-in{justify-content:space-between;gap:0}}
+@media (max-width:360px){.eu-top-in{padding-right:32px}}
+@media (min-width:361px) and (max-width:374px){.eu-top img{height:38px}.eu-top-in{justify-content:space-between;gap:0;padding-right:36px}}
