@@ -104,3 +104,19 @@ section.alt+section.alt{padding-top:0}
 .wrap.crumbs{padding:16px 20px 0}
 @media(min-width:641px) and (max-width:860px){footer.site .cols{grid-template-columns:1fr 1fr}footer.site .cols>div:first-child{grid-column:1/-1}}
 @media(max-width:360px){.wrap.crumbs{padding:14px 16px 0}}
+/* v4 – set obligatoriu de elemente grafice (MIV 2021–2027): vizibil fără derulare, pe toate paginile */
+.eu-top{background:#fff;border-bottom:1px solid #E5EAEF}
+.eu-top-in{display:flex;align-items:center;justify-content:space-between;gap:96px;padding-top:10px;padding-bottom:10px}
+.eu-top img{display:block;height:56px;width:auto}
+.eu-legal{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid rgba(255,255,255,.15);font-family:Arial,Helvetica,sans-serif;font-size:13px;line-height:1.55;color:#E3EAF1}
+.eu-legal p{margin:0 0 4px}
+.eu-legal a{color:#fff;text-decoration:underline}
+@media (max-width:640px){.eu-top-in{gap:64px;padding-top:8px;padding-bottom:8px}.eu-top img{height:40px}}
+@media (max-width:360px){.eu-top-in{gap:52px}.eu-top img{height:38px}}
+/* emblema UE cel puțin la fel de mare ca cel mai mare logo de pe pagină (înălțime egală) */
+.eu-top img{height:64px}
+.logo img,.nav .logo img{width:122px!important}
+@media (max-width:640px){.eu-top img{height:46px}.eu-top-in{gap:48px}.logo img,.nav .logo img{width:88px!important}}
+@media (max-width:360px){.eu-top img{height:42px}.eu-top-in{gap:44px}.logo img,.nav .logo img{width:80px!important}}
+@media (max-width:360px){.eu-top img{height:38px}.eu-top-in{gap:58px}.logo img,.nav .logo img{width:73px!important}}
+@media (max-width:860px){.nav .menu-btn{margin-left:auto}}
