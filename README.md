@@ -24,11 +24,11 @@ Site static (HTML/CSS), găzduit gratuit pe GitHub Pages, domeniu **www.taxipet.
 - `sitemap.xml`, `robots.txt`, `llms.txt`, Open Graph (Facebook/WhatsApp preview), favicon, manifest.
 - Imagini WebP comprimate, cu nume de fișier și `alt` descriptive, `width/height` și lazy-loading.
 - Mobil-first, meta geo Bacău, `lang="ro"`, diacritice corecte.
-- Bara fixă de contact (e-mail, WhatsApp, telefon 0735 252 555) pe toate paginile.
+- Bara fixă de contact (e-mail, WhatsApp, telefon 0758 420 574) pe toate paginile.
 
 ### 3. Pași după publicare (necesită conturile beneficiarului)
 1. **Google Search Console**: adăugare proprietate `taxipet.ro` (verificare prin înregistrare TXT în DNS la Hostico), trimitere `https://www.taxipet.ro/sitemap.xml`.
-2. **Google Business Profile**: categorie „Agenție de închirieri auto”, zonă de serviciu Bacău, telefon 0735 252 555, site www.taxipet.ro, poze cu duba. Cel mai important pas pentru căutările „lângă mine” și Google Maps.
+2. **Google Business Profile**: categorie „Agenție de închirieri auto”, zonă de serviciu Bacău, telefon 0758 420 574, site www.taxipet.ro, poze cu duba. Cel mai important pas pentru căutările „lângă mine” și Google Maps.
 3. **Recenzii**: link de recenzie Google trimis pe WhatsApp după fiecare închiriere.
 4. **Backlink-uri locale**: profil pe pagina Facebook/Instagram, linkuri de la clinicile veterinare partenere (ex. Amon Vet Care), asociații de protecție, directoare locale de firme.
 5. **Conținut**: un articol nou pe lună în `/blog` (subiecte: vara și câinele în mașină, pensiuni pentru câini în Bacău, târguri de adopție, mutarea cu animalele).
